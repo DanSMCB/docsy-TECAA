@@ -4,11 +4,10 @@ title: Goldydocs
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu slugorcontentbasename
 
 # Language settings
-contentDir: content/en
-defaultContentLanguage: en
+defaultContentLanguage: pt
 defaultContentLanguageInSubdir: false
 # Useful when translating.
-enableMissingTranslationPlaceholders: true
+enableMissingTranslationPlaceholders: false
 
 enableRobotsTXT: true
 
@@ -57,10 +56,17 @@ imaging:
 languages:
   en:
     languageName: English
+    contentDir: content/en
     title: Goldydocs
     params:
       description: A Docsy example site
   # cSpell:disable
+  pt:
+    languageName: Portuguese
+    contentDir: content/pt
+    title: Goldydocs
+    params:
+      description: Um exemplo de site para o Docsy
   no:
     languageName: Norsk
     contentDir: content/no
@@ -71,7 +77,7 @@ languages:
       time_format_blog: 02.01.2006
   fa:
     languageDirection: rtl
-    languageName: 'فارسی (Persian)'
+    languageName: 'فارسی'
     contentDir: content/fa
     title: 'اسناد گلدی'
     params:
@@ -148,10 +154,10 @@ params:
   github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
-  gcs_engine_id: d72aa9b2712488cc3
+   #gcs_engine_id: d72aa9b2712488cc3
 
   # Enable Lunr.js offline search
-  offlineSearch: false
+  offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
   prism_syntax_highlighting: false

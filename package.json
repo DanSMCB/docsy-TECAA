@@ -51,9 +51,10 @@
     "update": "npm run update:packages && npm run update:docsy:mod"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.24",
+    "autoprefixer": "^10.4.27",
     "cross-env": "^10.1.0",
     "hugo-extended": "0.155.3",
+    "postcss": "^8.5.8",
     "postcss-cli": "^11.0.1",
     "rtlcss": "^4.3.0"
   },

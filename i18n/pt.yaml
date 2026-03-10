@@ -1,0 +1,68 @@
+# Alert labels
+caution: Atenção
+important: Importante
+note: Nota
+tip: Dica
+warning: Aviso
+
+# UI strings. Buttons and similar.
+ui_pager_prev: Anterior
+ui_pager_next: Seguinte
+ui_read_more: Ler mais
+ui_search: Pesquisar neste site…
+
+# Used in sentences such as "Posted in News"
+ui_in: em
+
+# Used in sentences such as "All Tags"
+ui_all: todos
+
+# Footer text
+footer_all_rights_reserved: Todos os direitos reservados
+footer_privacy_policy: Política de Privacidade
+
+# Post (blog, article, etc.)
+post_byline_by: Por
+post_created: Criado
+post_last_mod: Última modificação
+post_edit_this: Editar esta página
+post_view_this: Ver código-fonte da página
+post_create_child_page: Criar página filha
+post_create_issue: Criar issue da documentação
+post_create_project_issue: Criar issue do projeto
+post_posts_in: Publicações em
+post_reading_time: minutos de leitura
+post_less_than_a_minute_read: menos de um minuto
+
+# Print support
+print_printable_section: Esta é a vista imprimível multipágina desta secção.
+print_click_to_print: Clique aqui para imprimir
+print_show_regular: Voltar à visualização normal desta página
+print_entire_section: Imprimir a secção inteira
+
+# Community
+community_join: Junta-te à comunidade {{ .Site.Title }}
+community_introduce: >-
+  {{ .Site.Title }} é um projeto open source que qualquer pessoa da comunidade pode
+  usar, melhorar e aproveitar. Gostaríamos muito que te juntasses a nós! Aqui estão
+  algumas formas de descobrir o que está a acontecer e participar.
+community_learn: Aprender e Conectar
+community_using: >-
+  Estás a usar ou queres usar {{ .Site.Title }}? Descobre mais aqui:
+community_develop: Desenvolver e Contribuir
+community_contribute: >-
+  Se quiseres envolver-te mais contribuindo para {{ .Site.Title }}, junta-te a nós
+  aqui:
+community_how_to: Podes descobrir como contribuir para {{ .Site.Title }} nas nossas
+community_guideline: >-
+  Diretrizes de Contribuição
+
+# Feedback
+feedback_title: Feedback
+feedback_question: Esta página foi útil?
+feedback_positive: Sim
+feedback_negative: Não
+
+# Table of contents
+toc_on_this_page: Nesta página
+toc_top_of_page: Topo da página
